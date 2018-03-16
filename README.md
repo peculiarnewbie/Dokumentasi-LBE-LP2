@@ -2,4 +2,4 @@
 Dokumentasi LBE LP2
 
 
-Dokumentasi pembuatan LINE bot dengan 'javascript'
+Dokumentasi pembuatan LINE bot dengan `javascript`
