@@ -1,4 +1,3 @@
-## LP2_16-3-2018_asynchronous
 
 const Bluebird = require('bluebird')
 
