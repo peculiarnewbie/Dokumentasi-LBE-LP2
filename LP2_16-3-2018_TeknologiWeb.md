@@ -15,4 +15,5 @@ Terdapat HTTP method yang dapat dilakukan untuk interaksi seperti GET untuk memi
 200 - Request sukses
 404 - Resource tidak ditemukan
 401 - tidak memiliki hak untuk melakukan request tersebut
+201 - created
 ```
