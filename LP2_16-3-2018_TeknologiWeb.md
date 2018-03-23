@@ -9,3 +9,10 @@ Seperti komunikasi biasa, komputer juga perlu menegenal lawan bicara dan perlu b
 Menghubungi antar komputer dengan IP Adress, menggunakan bahasa salah satunya HTTP (Hyper Text Transfer Protocol).
 
 Terdapat HTTP method yang dapat dilakukan untuk interaksi seperti GET untuk meminta data dan POST untuk mengirim data.
+
+#### HTTP Status
+```
+200 - Request sukses
+404 - Resource tidak ditemukan
+401 - tidak memiliki hak untuk melakukan request tersebut
+```
