@@ -4,7 +4,7 @@ Fungsi-fungsi diatas berguna untuk **meminta hasil** dari suatu fungsi yang **me
 Karena program javascript menjalankan fungsi2 dalam script sekaligus, maka perintah assignment terkadang dilakukan dari fungsi yang belum selesai memberi hasil, maka fungsi-fungsi asynchronous ini berguna untuk mencegah terjadinya hal tersebut.
 NB: *jangan gunakan callback*
 
-#### contoh fungsi yang menggunakan timeout dan fungsi bluebird
+### contoh fungsi yang menggunakan timeout dan fungsi bluebird
 
 function tambah(data){
     return new Bluebird((resolve, reject) => {
@@ -17,7 +17,7 @@ function tambah(data){
 fungsi setTimeout di fungsi ini berguna untuk mensimulasikan fungsi agar berjalan selama 1000 milisekon sebelum mengembalikan hasil
 fungsi diatas juga menggunakan bluebird dimana fungsi akan mengembalikan data ke bluebird sampai dipanggil.
 
-#### contoh pemanggilan fungsi yang menggunakan bluebird
+### contoh pemanggilan fungsi yang menggunakan bluebird
 tambah(10)
     .then((data) => {
         return kali(data);
